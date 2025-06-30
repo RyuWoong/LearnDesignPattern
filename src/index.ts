@@ -1,7 +1,3 @@
-import { structural } from "./structural";
-import { creational } from "./creational";
-import { behavioral } from "./behavioral";
+import { FactoryMethod } from "./structural";
 
-structural();
-creational();
-behavioral();
+FactoryMethod();

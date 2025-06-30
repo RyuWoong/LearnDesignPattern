@@ -1,3 +1,1 @@
-export const structural = () => {
-  console.log("structural");
-};
+export { default as FactoryMethod } from "./FactoryMethod";
