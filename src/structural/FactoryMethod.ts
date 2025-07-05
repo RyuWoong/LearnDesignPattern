@@ -23,7 +23,7 @@ abstract class Maker {
 }
 
 /**
- * Maker1s는 팩토리 메서드를 재정의하여 제품 유형을 변경합니다.
+ * Maker는 팩토리 메서드를 재정의하여 제품 유형을 변경합니다.
  */
 class DrinkMaker extends Maker {
   /**

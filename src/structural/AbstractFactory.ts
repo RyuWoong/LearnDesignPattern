@@ -61,8 +61,10 @@ function clientCode(factory: AbstractFactory) {
   console.log(table.name);
 }
 
-const modernFactory = new MordernFactory();
-clientCode(modernFactory);
+export default function main() {
+  const modernFactory = new MordernFactory();
+  clientCode(modernFactory);
 
-const vintageFactory = new VintageFactory();
-clientCode(vintageFactory);
+  const vintageFactory = new VintageFactory();
+  clientCode(vintageFactory);
+}

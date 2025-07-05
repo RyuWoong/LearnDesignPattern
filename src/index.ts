@@ -1,3 +1,3 @@
-import { FactoryMethod } from "./structural";
+import { AbstractFactory, Builder } from "./structural";
 
-FactoryMethod();
+Builder();
