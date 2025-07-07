@@ -1,3 +1,3 @@
-import { AbstractFactory, Builder } from "./structural";
+import { AbstractFactory, Builder, Prototype } from "./structural";
 
-Builder();
+Prototype();
