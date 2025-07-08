@@ -64,5 +64,3 @@ export default function main() {
     console.log("Component with back reference is linked to the clone. Yay!");
   }
 }
-
-main();
