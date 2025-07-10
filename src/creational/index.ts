@@ -1,3 +1,1 @@
-export const creational = () => {
-  console.log("creational");
-};
+export { default as Adapter } from "./Adapter";
