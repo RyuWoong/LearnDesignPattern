@@ -1,6 +1,4 @@
 import { AbstractFactory, Builder, Prototype, Singleton } from "./structural";
-import { Adapter, Bridge, Composite } from "./creational";
+import { Adapter, Bridge, Composite, Decorator } from "./creational";
 
-Adapter();
-Bridge();
-Composite();
+Decorator();
